@@ -1,0 +1,8 @@
+.calculate-food,
+.calculate-food>p {
+    text-align: center !important;
+}
+
+.guess-cal {
+    font-size: 10pt !important;
+}
