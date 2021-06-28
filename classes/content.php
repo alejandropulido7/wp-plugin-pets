@@ -21,10 +21,14 @@ $postPets = new WP_Query($arguments);
 ?>
 <div class="row calculate-food">
     <div class="col-12">
-        <p>Tu mascota debe comer esta cantidad de alimento según: </p>
-        <p><?php echo $type_pet;?></p>
-        <p><?php echo $weight_pet;?></p>
-        <p><?php echo $age_pet;?></p>
+        <p><?php echo "Tu ".$type_pet." con el peso: ".$weight_pet."kg a la edad: ".$age_pet." debe comer:";?></p>
+        <?php 
+            if($type_pet == "perro" && $weight_pet == "20-30" && $age_pet == "2-anos"){
+                echo "<p class='res-cal'>150 gramos por día</p>";
+            }        
+        ?>
+        <br>
+        <br>
         <p class="guess-cal">Echa un vistazo a las sugerencias</p>
     </div>
 </div>
