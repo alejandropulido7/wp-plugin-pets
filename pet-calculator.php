@@ -2,7 +2,7 @@
 /*
 Plugin Name: Pet Calculator
 Plugin URI: ''
-Description: Calculator of pet food
+Description: Calculator for pet food. Use shortcode [PETS_CALCULATOR] for show calculator on anywhere you want in your site. This plugin enable a new option on left panel with custom posts, wich it show in calculator form as suggest. Make sure add post on 'Post for pets' for calculator works.
 Author: Alejandro Pulido
 Version: 1
 Author URI: https://alejandropulido7.github.io/
