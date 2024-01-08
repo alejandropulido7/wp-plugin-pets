@@ -42,7 +42,6 @@ $postPets = new WP_Query($arguments);
                 <div class="w-50 px-3">
                     <h3 class=""><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                     <p class="text-md-left"><?php the_excerpt(); ?></p>
-                    <a class="btn btn-link" id="r-more" href="<?php the_permalink(); ?>">Leer más..</a>
                 </div>
             </div>
         <?php endwhile;
